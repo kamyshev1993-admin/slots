@@ -113,6 +113,7 @@ function App() {
                 <div className="roller"><Roller onStop={handleRollerStop} index={1} isSpinning={isSpinning}/></div>
                 <div className="roller"><Roller onStop={handleRollerStop} index={2} isSpinning={isSpinning}/></div>
             </div>
+
             <RerollButton onClick={() => {
                 setRunningRollingCount(3)
                 setIsSpinning(true)
