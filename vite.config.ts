@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/react_rick_and_morty_heroes/',
+  base: '/react_slots/',
 })
